@@ -35,7 +35,7 @@ const removeOrder = async (id) => {
           <div>nama: {{ order.name }}</div>
           <div>harga: {{ order.price }}</div>
           <div>
-            <!-- <RouterLink :to="`/order/${order.id}`">Edit</RouterLink> -->
+            <RouterLink :to="`/orders/${order.id}`">Edit</RouterLink>
           </div>
           <div>
             <button @click="removeOrder(order.id)">Hapus Data</button>
