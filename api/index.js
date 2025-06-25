@@ -1,6 +1,4 @@
-export default {
-  fetch(request, env) {
-    const url = new URL(request.url);
+import {hono} from 'hono';
 
     return env.ASSETS.fetch(request);
   }
