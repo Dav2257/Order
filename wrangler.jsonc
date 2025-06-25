@@ -4,5 +4,12 @@
   "assets": { 
     "not_found_handling": "single-page-application"
   },
-  "main": "./api/index.js"
+ "main": "./api/index.js",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "order",
+      "database_id": "78518d18-94ac-4960-89e1-cb726622a7f5"
+    }
+  ]
 }
