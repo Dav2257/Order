@@ -33,8 +33,8 @@ const saveData = async () => {
                 <input type="text" v-model="name" />
             </div>
             <div>
-                <label>Harga</label>
-                <input type="number" v-model="price" />
+                <label>jumlah</label>
+                <input type="number" v-model="amount" />
             </div>
     
             <div class="mt-3">
