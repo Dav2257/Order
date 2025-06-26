@@ -1,6 +1,6 @@
-import {hono} from 'hono';
+import { Hono } from 'hono';
 
-const app = new hono();
+const app = new Hono();
 
 app.get('/api', (c) => {
   return c.text('hi');

@@ -1,4 +1,4 @@
--- Migration number: 0001 	 2025-06-25T20:41:17.940Z
+-- Migration number: 0001 	 2025-06-26T00:43:23.933Z
 
 CREATE TABLE IF NOT EXISTS orders (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS orders (
     amount INTEGER
 );
 
-INSERT INTO orders(name, amount) VALUES ('produk 1', 2), ('produk 2', 3);
+INSERT INTO orders(name, amount) VALUES ('produk 1', 1), ('produk 2', 2);

@@ -18,7 +18,7 @@ const removeOrder = async (id) => {
     method: 'DELETE',
   })
   if (response.ok) {
-    fetchorders()
+    fetchOrders()
   }
 }
 </script>
@@ -33,7 +33,7 @@ const removeOrder = async (id) => {
       <ul>
         <li v-for="order in orders" :key="order.id">
           <div>nama: {{ order.name }}</div>
-          <div>harga: {{ order.price }}</div>
+          <div>jumlah: {{ order.amount }}</div>
           <div>
             <RouterLink :to="`/orders/${order.id}`">Edit</RouterLink>
           </div>
